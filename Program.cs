@@ -18,8 +18,8 @@ namespace myApp
 
             while (i < 4)
             {
-                i++;
-                DoNothing();
+                i+=2;
+                DoNothing();                
             }
         }
 
