@@ -23,16 +23,14 @@ namespace myApp
             }
         }
 
-
-        private static void DoNothing()
-        {
-
-        }
+        public static void MyMethod3() => JustMakeYourselfBetter();
+        
         public static void MyMethod() => JustMakeYourselfBetter();
 
         private static void JustMakeYourselfBetter()
         {
-            throw new NotImplementedException();
+            DoNothing();
+            
         }
     }
 }

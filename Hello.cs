@@ -11,7 +11,6 @@
 
         public static void MyMethod2()
         {
-            DoNothing();
         }
     }
 }
